@@ -3,6 +3,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 
 import { ProfileOverview } from "../ProfileOverview";
 import { ProfileActivities } from "../ProfileActivities";
+import { ProfileProjects } from "../ProfileProjects";
 
 import avatar from "../../assets/images/avatar.jpg";
 
@@ -15,6 +16,8 @@ export const Profile: React.FC = () => {
 
   if (activeTab === "activities") {
     content = <ProfileActivities />;
+  } else if (activeTab === "projects") {
+    content = <ProfileProjects />;
   }
 
   return (

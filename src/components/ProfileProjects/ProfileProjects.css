@@ -1,0 +1,59 @@
+.profile-projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.profile-project-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  list-style: none;
+}
+
+.profile-project-list li {
+  width: 30%;
+  border: 1px solid #f0f0f0;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.profile-project-list li:has(.in-progress-tag) {
+  border-left: 5px solid #f06548;
+}
+
+.progress-tag {
+  background-color: #3577f150;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: bolder;
+  font-size: 0.75rem;
+}
+
+.profile-project-list li:has(.new-tag) {
+  border-left: 5px solid #4b38b3;
+}
+
+.profile-project-list li:has(.completed-tag) {
+  border-left: 5px solid #45cb85;
+}
+
+.profile-project-list li:has(.progress-tag) {
+  border-left: 5px solid #3577f1;
+}
+
+@media (max-width: 920px) {
+  .profile-project-list {
+    flex-direction: column;
+  }
+
+  .profile-project-list li {
+    width: 100%;
+  }
+}
