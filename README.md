@@ -1,6 +1,6 @@
 ## User Profile Overview Section
-![screencapture-localhost-5173-user-profile-2024-08-27-21_13_24](https://github.com/user-attachments/assets/96de3458-aaf5-47d9-a284-6fb0b72f1713)
+![screencapture-localhost-5173-user-profile-2024-08-27-23_57_22](https://github.com/user-attachments/assets/dd329496-1c06-405e-b63a-b518583f03e7)
 ## User Profile Activities Section
-![screencapture-localhost-5173-user-profile-2024-08-27-21_10_04](https://github.com/user-attachments/assets/c507df27-6819-403a-b2cd-647e0ca01b87)
+![screencapture-localhost-5173-user-profile-2024-08-27-23_58_19](https://github.com/user-attachments/assets/401412b7-a294-4263-8ec5-c7d38c24810b)
 ## User Profile Projects Section
-![screencapture-localhost-5173-user-profile-2024-08-27-23_49_41](https://github.com/user-attachments/assets/a6595974-0f3e-4705-b711-916e376ef986)
+![screencapture-localhost-5173-user-profile-2024-08-27-23_58_49](https://github.com/user-attachments/assets/38ae99bd-38a7-4659-bd62-0638962f30d7)
