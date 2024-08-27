@@ -1,0 +1,10 @@
+.header-container {
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  border-bottom: 1px solid #f0f0f0;
+  position: absolute;
+}

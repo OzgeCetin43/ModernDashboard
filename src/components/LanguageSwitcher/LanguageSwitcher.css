@@ -1,0 +1,28 @@
+.language-switcher-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-switcher-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.language-switcher-container ul li img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+  border: 1px solid #f0f0f0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.language-switcher-container ul li .active-language {
+  border: 2px solid #212121;
+  width: 2rem;
+  height: 2rem;
+}

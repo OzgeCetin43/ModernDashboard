@@ -1,0 +1,362 @@
+.profile-overview-container {
+  width: 100%;
+}
+
+.profile-overview-inner-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.profile-overview-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  flex: 1;
+  height: 300px;
+}
+
+.profile-overview-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-overview-item:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.profile-overview-item p {
+  font-weight: bolder;
+}
+
+.profile-oveview-skills-container,
+.profile-overview-suggestion-container,
+.profile-overview-post-container,
+.profile-overview-about-container,
+.profile-overview-activity-container,
+.profile-overview-project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.profile-overview-about-container {
+  flex: 3;
+  margin: 0;
+}
+
+.profile-oveview-skills-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.profile-oveview-skills-list li {
+  padding: 0.5rem 1rem;
+  font-weight: bolder;
+  border-radius: 0.25rem;
+  width: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.profile-oveview-skills-list li:nth-child(odd) {
+  background-color: #212121;
+}
+
+.profile-oveview-skills-list li:nth-child(even) {
+  background-color: #45cb85;
+}
+
+.profile-overview-suggestion-container,
+.profile-overview-post-container {
+  flex: 1;
+}
+
+.profile-overview-suggestion-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.profile-overview-suggestion-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-overview-suggestion-list li:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 1rem 0;
+}
+
+.suggestion-info-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.suggestion-info-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 0.25rem;
+}
+
+.profile-overview-suggestion-list svg {
+  font-size: 3.5rem;
+  border: 1px solid #f0f0f0;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile-overview-suggestion-list svg:hover {
+  background-color: #f0f0f0;
+}
+
+.profile-overview-post-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile-overview-post-list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-overview-post-list li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 0.25rem;
+}
+
+.profile-overview-post-list li h1 {
+  font-size: 1rem;
+}
+
+.profile-overview-post-list li small {
+  color: #999;
+}
+
+.profile-about-text {
+  line-height: 1.5;
+}
+
+.profile-about-detail-container {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-about-detail-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-about-detail-item svg {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  font-size: 3rem;
+  border-radius: 50%;
+}
+
+.profile-about-detail-item p {
+  font-weight: bolder;
+}
+
+.profile-activity-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.profile-activity-item div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-activity-circle {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.profile-activity-item div h2 {
+  font-size: 1rem;
+}
+
+.profile-activity-item small {
+  color: #999;
+}
+
+.profile-activity-item p {
+  line-height: 1.5;
+}
+
+.profile-activity-attachments-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.activity-attachment {
+  width: 30%;
+  border: 1px solid #f0f0f0;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.activity-attachment svg {
+  font-size: 3rem;
+}
+
+.activity-attachment-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+}
+
+.activity-comment-text {
+  font-style: italic;
+}
+
+.activity-team-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.activity-team-container img:nth-child(2) {
+  position: relative;
+  left: -1.5rem;
+}
+
+.activity-team-container img:nth-child(3) {
+  position: relative;
+  left: -3rem;
+}
+
+.activity-team-container img:last-of-type {
+  position: relative;
+  left: -4.5rem;
+}
+
+.team-member-extra {
+  position: relative;
+  left: -6rem;
+  width: 50px;
+  height: 50px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-overview-project-container ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.profile-overview-project-container ul li {
+  width: 33%;
+  border: 1px solid #f0f0f0;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.profile-project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-project-header h1 {
+  font-size: 1rem;
+}
+
+.in-progress-tag {
+  background-color: #f0654850;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: bolder;
+  font-size: 0.75rem;
+}
+
+.profile-overview-project-container ul li:has(.in-progress-tag) {
+  border-left: 5px solid #f06548;
+}
+
+.profile-overview-project-container i {
+  display: block;
+  color: #999;
+  font-size: 0.75rem;
+}
+
+.profile-overview-project-container small {
+  margin: 1rem 0;
+  display: block;
+}
+
+.completed-tag {
+  background-color: #45cb8550;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: bolder;
+  font-size: 0.75rem;
+}
+
+.profile-overview-project-container ul li:has(.completed-tag) {
+  border-left: 5px solid #45cb85;
+}
+
+.new-tag {
+  background-color: #4b38b350;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: bolder;
+  font-size: 0.75rem;
+}
+
+.profile-overview-project-container ul li:has(.new-tag) {
+  border-left: 5px solid #4b38b3;
+}
+
+@media (max-width: 920px) {
+  .profile-overview-inner-container,
+  .profile-oveview-skills-list,
+  .profile-overview-project-container ul {
+    flex-direction: column;
+  }
+
+  .profile-oveview-skills-list li,
+  .activity-attachment,
+  .profile-overview-project-container ul li {
+    width: 100%;
+  }
+
+  .profile-activity-attachments-container {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+}

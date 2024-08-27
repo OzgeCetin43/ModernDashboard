@@ -1,0 +1,197 @@
+.notifications-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.notifications-button {
+  width: 2rem;
+  height: 2erem;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.notifications-button svg {
+  font-size: 1.5rem;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -0.5rem;
+  right: -0.35rem;
+  background-color: #4b38b3;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notifications-detail {
+  position: absolute;
+  top: 3.5rem;
+  right: 0;
+  width: 350px;
+  border: 1px solid #f0f0f0;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.notifications-detail-top {
+  background-color: #4b38b3;
+  padding: 1rem;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100px;
+  border-bottom: 3px solid #f0f0f0;
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+
+.notifications-detail-top p {
+  padding: 0.5rem 1rem;
+  border: 1px solid#fff;
+  border-radius: 0.25rem;
+}
+
+.notifications-detail-tabs {
+  position: relative;
+  top: -3.45rem;
+  margin: 1rem 0;
+}
+
+.notifications-detail-tabs ul {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  gap: 1rem;
+  list-style: none;
+}
+
+.notifications-detail-tabs ul li {
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.notifications-detail-tabs ul li.active {
+  background-color: #fff;
+  color: #212121;
+}
+
+.notifications-detail-body {
+  padding: 1rem;
+  margin-top: -3rem;
+  height: 540px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.all-tab-list,
+.messages-tab-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.all-tab-list li,
+.messages-tab-list li {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.notification-icon {
+  font-size: 3rem;
+  border-radius: 50%;
+  color: #f06548;
+}
+
+.all-tab-list img,
+.messages-tab-list img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.all-tab-content,
+.messages-tab-content {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.all-tab-content p,
+.messages-tab-content p {
+  line-height: 1.5;
+}
+
+.all-tab-content small,
+.messages-tab-content small {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.all-tab-content small svg,
+.messages-tab-content small svg {
+  font-size: 1.5rem;
+}
+
+.all-tab-list li input,
+.messages-tab-content li input {
+  outline: none;
+  cursor: pointer;
+}
+
+.view-all-notifications-button {
+  background-color: #45cb85;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+.alerts-tab-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem;
+  background-color: #f0f0f0;
+  border-radius: 0.25rem;
+}
+
+.alerts-tab-container svg {
+  font-size: 5rem;
+}
+
+.alerts-tab-container h3 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (max-width: 920px) {
+  .notifications-detail {
+    right: -150px;
+  }
+}
