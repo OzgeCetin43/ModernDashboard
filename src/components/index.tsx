@@ -5,3 +5,4 @@ export * from "./Notifications";
 export * from "./Avatar";
 export * from "./Profile";
 export * from "./ProfileOverview";
+export * from "./ProfileActivities";

@@ -1,0 +1,82 @@
+.profile-activities-container,
+.profile-activities-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.profile-activities-container {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.profile-activities-item:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 1rem;
+}
+
+.profile-activity-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.profile-activity-circle {
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+}
+
+.profile-activities-item i {
+  font-size: 0.78rem;
+}
+
+.profile-activity-team-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-activity-team-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile-activity-team-container img:nth-child(2) {
+  position: relative;
+  left: -1.5rem;
+}
+
+.profile-activity-team-container img:last-child {
+  position: relative;
+  left: -3rem;
+}
+
+.activity-attachments-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activity-attachments-container img {
+  width: 33%;
+  border-radius: 0.25rem;
+}
+
+.out-of-delivery-tag {
+  background-color: #3577f150;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: bolder;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 920px) {
+  .profile-activity-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

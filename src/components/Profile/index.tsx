@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaMapLocationDot } from "react-icons/fa6";
 
 import { ProfileOverview } from "../ProfileOverview";
+import { ProfileActivities } from "../ProfileActivities";
 
 import avatar from "../../assets/images/avatar.jpg";
 
@@ -11,6 +12,10 @@ export const Profile: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>("overview");
 
   let content = <ProfileOverview />;
+
+  if (activeTab === "activities") {
+    content = <ProfileActivities />;
+  }
 
   return (
     <>
