@@ -4,3 +4,5 @@
 ![screencapture-localhost-5173-user-profile-2024-08-27-23_58_19](https://github.com/user-attachments/assets/401412b7-a294-4263-8ec5-c7d38c24810b)
 ## User Profile Projects Section
 ![screencapture-localhost-5173-user-profile-2024-08-27-23_58_49](https://github.com/user-attachments/assets/38ae99bd-38a7-4659-bd62-0638962f30d7)
+## User Profile Documents Section
+![screencapture-localhost-5173-user-profile-2024-08-28-12_37_54](https://github.com/user-attachments/assets/e13bdc6e-8d9b-4b6d-ac14-22a832379775)
