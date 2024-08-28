@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import { Chat, Home, UserProfile } from "../pages";
+import { Chat, Home, TaskBoard, UserProfile } from "../pages";
 
 const Routers: React.FC = () => {
   return (
@@ -9,6 +9,7 @@ const Routers: React.FC = () => {
       <Route path="/" element={<Home />} />
       <Route path="/user-profile" element={<UserProfile />} />
       <Route path="/user-messages" element={<Chat />} />
+      <Route path="/user-taskboard" element={<TaskBoard />} />
     </Routes>
   );
 };
