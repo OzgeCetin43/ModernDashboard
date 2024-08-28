@@ -10,3 +10,4 @@ export * from "./ProfileProjects";
 export * from "./ProfileDocuments";
 export * from "./ChatMessages";
 export * from "./KanbanTaskBoard";
+export * from "./FAQs";
