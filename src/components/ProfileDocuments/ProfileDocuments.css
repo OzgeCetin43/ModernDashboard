@@ -1,0 +1,72 @@
+.profile-documents-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.profile-documents-container table thead {
+  background-color: #f0f0f0;
+}
+
+.profile-documents-container table thead tr th {
+  padding: 1rem;
+}
+
+.profile-documents-container table tbody tr td {
+  padding: 1rem;
+  text-align: center;
+}
+
+.profile-documents-container table tbody tr:not(:last-child) td {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.profile-documents-container table tbody tr td:first-child {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-documents-container table tbody tr td svg {
+  font-size: 2rem;
+}
+
+.profile-documents-container table tbody tr td button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.profile-documents-container table tbody tr td button svg {
+  font-size: 1.25rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.profile-documents-container table tbody tr:first-child td svg {
+  color: #3577f1;
+}
+
+.profile-documents-container table tbody tr:nth-child(2) td svg {
+  color: #f06548;
+}
+
+.profile-documents-container table tbody tr:nth-child(3) td svg {
+  color: #45cb85;
+}
+
+.profile-documents-container table tbody tr:nth-child(4) td svg {
+  color: #4b38b3;
+}
+
+.profile-documents-container table tbody tr:nth-child(5) td svg {
+  color: #ffcc5f;
+}
+
+.profile-documents-container table tbody tr:last-child td svg {
+  color: #f000b9;
+}

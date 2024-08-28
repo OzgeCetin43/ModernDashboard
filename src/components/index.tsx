@@ -7,3 +7,4 @@ export * from "./Profile";
 export * from "./ProfileOverview";
 export * from "./ProfileActivities";
 export * from "./ProfileProjects";
+export * from "./ProfileDocuments";
