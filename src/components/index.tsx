@@ -8,3 +8,4 @@ export * from "./ProfileOverview";
 export * from "./ProfileActivities";
 export * from "./ProfileProjects";
 export * from "./ProfileDocuments";
+export * from "./ChatMessages";
