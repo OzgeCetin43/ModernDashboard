@@ -10,3 +10,5 @@
 ![screencapture-localhost-5173-user-messages-2024-08-28-17_47_10](https://github.com/user-attachments/assets/6348711d-0172-4a55-9493-11c0646944e0)
 ## User Taskboard Page
 ![screencapture-localhost-5173-user-taskboard-2024-08-28-20_07_22](https://github.com/user-attachments/assets/710ccd2a-a828-4ec1-874e-ea37a391e455)
+## User Help Page
+![screencapture-localhost-5173-help-2024-08-29-00_54_45](https://github.com/user-attachments/assets/d5d727a5-37be-4705-bee1-1d303534e859)
