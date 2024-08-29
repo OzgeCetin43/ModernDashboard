@@ -18,3 +18,5 @@
 ![screencapture-localhost-5173-user-settings-2024-08-29-15_43_20](https://github.com/user-attachments/assets/3719dd4d-0c81-44e7-8903-8470335417e2)
 ## User Settings Experience Section
 ![screencapture-localhost-5173-user-settings-2024-08-29-16_10_42](https://github.com/user-attachments/assets/e1b658fd-fa24-4bde-9887-21c92a05613c)
+## User Settings Privacy Policy Section
+![screencapture-localhost-5173-user-settings-2024-08-29-16_33_25](https://github.com/user-attachments/assets/ce92ef7c-ad04-4d31-ad1e-2085ad9c9f60)
