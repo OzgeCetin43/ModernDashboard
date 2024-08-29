@@ -147,6 +147,7 @@
   background-color: #fff;
   height: 435px;
   flex: 1;
+  border-radius: 0.25rem;
 }
 
 .user-balance-right-container {
