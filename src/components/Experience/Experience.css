@@ -1,69 +1,63 @@
-.personal-details-container {
+.experience-container {
   padding: 1rem;
   border: 1px solid #f0f0f0;
   border-radius: 0.25rem;
 }
 
-.personal-details-form {
+.experience-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
 }
 
-.personal-detail-form-col-1,
-.personal-detail-form-col-2,
-.personal-detail-form-col-3 {
+.experience-form-col-1,
+.experience-form-col-3 {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.personal-detail-form-col-1 div,
-.personal-detail-form-col-2 div,
-.personal-detail-form-col-3 div {
+.experience-form-col-1 div,
+.experience-form-col-3 div {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.personal-detail-form-col-1 div {
+.experience-form-col-1 div {
   width: 100%;
 }
 
-.personal-detail-form-col-2 div {
-  width: 50%;
-}
-
-.personal-detail-form-col-3 div {
+.experience-form-col-3 div {
   width: 33%;
 }
 
-.personal-details-form label {
+.experience-form label {
   font-size: 0.75rem;
   font-weight: bolder;
 }
 
-.personal-details-form input,
-.personal-details-form textarea {
+.experience-form input,
+.experience-form textarea {
   padding: 0.5rem;
   outline: none;
   border: 1px solid #f0f0f0;
   border-radius: 0.25rem;
 }
 
-.personal-details-form textarea {
+.experience-form textarea {
   resize: none;
 }
 
-.personal-details-actions {
+.experience-actions {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
   gap: 1rem;
 }
 
-.personal-details-actions button {
+.experience-actions button {
   padding: 1rem 2rem;
   border-radius: 0.25rem;
   outline: none;
@@ -71,10 +65,14 @@
   color: #fff;
 }
 
-.personal-details-update-button {
+.experience-update-button {
   background-color: #3577f1;
 }
 
-.personal-details-cancel-button {
+.experience-add-new-button {
+  background-color: #45cb85;
+}
+
+.experience-delete-button {
   background-color: #f06548;
 }

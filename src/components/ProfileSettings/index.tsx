@@ -5,6 +5,7 @@ import { TbWorld } from "react-icons/tb";
 
 import { PersonalDetails } from "../PersonalDetails";
 import { ChangePassword } from "../ChangePassword";
+import { Experience } from "../Experience";
 
 import avatar from "../../assets/images/avatar.jpg";
 
@@ -17,6 +18,8 @@ export const ProfileSettings: React.FC = () => {
 
   if (activeTab === "change-password") {
     content = <ChangePassword />;
+  } else if (activeTab === "experience") {
+    content = <Experience />;
   }
 
   return (
