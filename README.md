@@ -12,6 +12,8 @@
 ![screencapture-localhost-5173-user-taskboard-2024-08-28-20_07_22](https://github.com/user-attachments/assets/710ccd2a-a828-4ec1-874e-ea37a391e455)
 ## User Help Page
 ![screencapture-localhost-5173-help-2024-08-29-00_54_45](https://github.com/user-attachments/assets/d5d727a5-37be-4705-bee1-1d303534e859)
+## User Balance Page
+![screencapture-localhost-5173-user-balance-2024-08-29-21_29_20](https://github.com/user-attachments/assets/9c223130-0457-45f4-831f-fa9eed96cb27)
 ## User Settings Personal Details Section
 ![screencapture-localhost-5173-user-settings-2024-08-29-14_16_05](https://github.com/user-attachments/assets/352cd629-a661-45c1-8e4f-b51deb74c949)
 ## User Settings Change Password Section
