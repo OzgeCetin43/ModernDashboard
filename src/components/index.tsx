@@ -15,3 +15,4 @@ export * from "./ProfileSettings";
 export * from "./PersonalDetails";
 export * from "./ChangePassword";
 export * from "./Experience";
+export * from "./PrivacyPolicy";

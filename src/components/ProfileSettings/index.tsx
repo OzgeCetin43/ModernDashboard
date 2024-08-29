@@ -6,6 +6,7 @@ import { TbWorld } from "react-icons/tb";
 import { PersonalDetails } from "../PersonalDetails";
 import { ChangePassword } from "../ChangePassword";
 import { Experience } from "../Experience";
+import { PrivacyPolicy } from "../PrivacyPolicy";
 
 import avatar from "../../assets/images/avatar.jpg";
 
@@ -20,6 +21,8 @@ export const ProfileSettings: React.FC = () => {
     content = <ChangePassword />;
   } else if (activeTab === "experience") {
     content = <Experience />;
+  } else if (activeTab === "privacy-policy") {
+    content = <PrivacyPolicy />;
   }
 
   return (

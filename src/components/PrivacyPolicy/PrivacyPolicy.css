@@ -1,0 +1,50 @@
+.privacy-policy-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.privacy-policy-container h3 {
+  text-decoration: underline;
+}
+
+.privacy-policy-container p {
+  font-weight: 500;
+}
+
+.privacy-policy-container small {
+  color: #999;
+}
+
+.privacy-policy-container input {
+  padding: 0.5rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 0.25rem;
+  width: 25%;
+}
+
+.privacy-policy-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.privacy-policy-actions button {
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.privacy-policy-close-and-delete-this-account {
+  background-color: #f06548;
+}
+
+.privacy-policy-cancel-button {
+  background-color: #212121;
+}
