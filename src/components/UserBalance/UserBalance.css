@@ -193,3 +193,15 @@
   color: #fff;
   cursor: pointer;
 }
+
+@media (max-width: 920px) {
+  .user-balance-container,
+  .user-balance-header,
+  .user-balance-content-container {
+    flex-direction: column;
+  }
+
+  .user-balance-header-item {
+    width: 100%;
+  }
+}
