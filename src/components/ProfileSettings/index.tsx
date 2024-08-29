@@ -4,6 +4,7 @@ import { FaGithub, FaDribbble, FaPinterest } from "react-icons/fa6";
 import { TbWorld } from "react-icons/tb";
 
 import { PersonalDetails } from "../PersonalDetails";
+import { ChangePassword } from "../ChangePassword";
 
 import avatar from "../../assets/images/avatar.jpg";
 
@@ -13,6 +14,10 @@ export const ProfileSettings: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>("personal-details");
 
   let content = <PersonalDetails />;
+
+  if (activeTab === "change-password") {
+    content = <ChangePassword />;
+  }
 
   return (
     <div className="profile-settings-container">

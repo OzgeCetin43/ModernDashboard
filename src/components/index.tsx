@@ -13,3 +13,4 @@ export * from "./KanbanTaskBoard";
 export * from "./FAQs";
 export * from "./ProfileSettings";
 export * from "./PersonalDetails";
+export * from "./ChangePassword";
