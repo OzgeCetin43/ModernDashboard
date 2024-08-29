@@ -41,7 +41,7 @@ export const avatarProfileLinks: AvatarProfileLink[] = [
     id: 5,
     icon: FaWallet,
     label: "Balance:  $5971.67",
-    path: "/user-profile",
+    path: "/user-balance",
   },
   {
     id: 6,

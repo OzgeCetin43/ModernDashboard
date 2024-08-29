@@ -16,3 +16,4 @@ export * from "./PersonalDetails";
 export * from "./ChangePassword";
 export * from "./Experience";
 export * from "./PrivacyPolicy";
+export * from "./UserBalance";

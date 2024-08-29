@@ -4,3 +4,4 @@ export * from "./Chat";
 export * from "./TaskBoard";
 export * from "./Help";
 export * from "./Settings";
+export * from "./Balance";
