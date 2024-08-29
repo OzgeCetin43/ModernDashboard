@@ -1,0 +1,163 @@
+.profile-settings-container {
+  position: relative;
+  top: 63px;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.profile-settings-cover-container {
+  background-color: #21212175;
+  background-image: url("../../assets/images/profile-bg.jpg");
+  background-blend-mode: overlay;
+  background-position: center;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.profile-settings-change-cover-button {
+  position: absolute;
+  right: 1rem;
+  padding: 1rem;
+  background-color: #45cb85;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.profile-settings-avatar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #fff;
+}
+
+.profile-avatar-container {
+  position: relative;
+}
+
+.profile-avatar-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-avatar-container svg {
+  background-color: #fff;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 5rem;
+  color: #212121;
+}
+
+.profile-settings-portfolio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.profile-settings-portfolio-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfolio-add-button {
+  padding: 0.5rem 1rem;
+  background-color: #ffcc5f;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.profile-settings-portfolio-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.profile-settings-portfolio-list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-settings-portfolio-list li svg {
+  font-size: 3rem;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.profile-settings-portfolio-list input {
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid #f0f0f0;
+  border-radius: 0.25rem;
+}
+
+.profile-settings-portfolio-list li:first-child svg {
+  background-color: #f06548;
+}
+
+.profile-settings-portfolio-list li:nth-child(2) svg {
+  background-color: #3577f1;
+}
+
+.profile-settings-portfolio-list li:nth-child(3) svg {
+  background-color: #f000b9;
+}
+
+.profile-settings-portfolio-list li:last-child svg {
+  background-color: #45cb85;
+}
+
+.profile-settings-content-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.profile-settings-content-header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-settings-content-header ul li {
+  cursor: pointer;
+  color: #4b38b3;
+  padding: 1rem;
+}
+
+.profile-settings-content-header ul .active-settings-tab {
+  border-bottom: 1px solid #4b38b3;
+}

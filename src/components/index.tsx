@@ -11,3 +11,5 @@ export * from "./ProfileDocuments";
 export * from "./ChatMessages";
 export * from "./KanbanTaskBoard";
 export * from "./FAQs";
+export * from "./ProfileSettings";
+export * from "./PersonalDetails";

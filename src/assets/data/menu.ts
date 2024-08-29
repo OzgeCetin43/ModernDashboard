@@ -215,7 +215,7 @@ export const menu: Menu[] = [
       {
         id: 38,
         label: "FAQs",
-        path: "/faqs",
+        path: "/help",
       },
       {
         id: 39,
