@@ -8,6 +8,7 @@ import {
   Home,
   LockScreen,
   Settings,
+  SignIn,
   TaskBoard,
   UserProfile,
 } from "../pages";
@@ -23,6 +24,7 @@ const Routers: React.FC = () => {
       <Route path="/user-balance" element={<Balance />} />
       <Route path="/user-settings" element={<Settings />} />
       <Route path="/lock-screen" element={<LockScreen />} />
+      <Route path="/sign-in" element={<SignIn />} />
     </Routes>
   );
 };

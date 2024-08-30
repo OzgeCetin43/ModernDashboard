@@ -1,0 +1,98 @@
+.user-sign-in-container {
+  background-image: url("../../assets/images/lock-screen-bg.jpg");
+  background-size: cover;
+  position: relative;
+  top: 63px;
+  border-radius: 0.25rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: calc(100vh - 63px);
+}
+
+.user-sign-in-container-content {
+  background-color: #ffffff75;
+  padding: 4rem;
+  border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 50%;
+}
+
+.user-sign-in-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.user-sign-in-form input,
+.user-sign-in-form button {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+.user-sign-in-form input {
+  border: 1px solid #f0f0f0;
+}
+
+.user-sign-in-form a {
+  font-size: 0.75rem;
+  color: #4b38b3;
+}
+
+.user-sign-in-button {
+  background-color: #45cb85;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-sign-in-container-content small {
+  color: #999;
+}
+
+.user-sign-in-social-media {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-sign-in-social-media svg {
+  font-size: 3rem;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.user-sign-in-social-media svg:first-child {
+  background-color: #4b38b3;
+}
+
+.user-sign-in-social-media svg:nth-child(2) {
+  background-color: #212121;
+}
+
+.user-sign-in-social-media svg:last-child {
+  background-color: #3577f1;
+}
+
+@media (max-width: 920px) {
+  .user-sign-in-container {
+    padding: 1rem;
+  }
+
+  .user-sign-in-container-content {
+    width: 100%;
+  }
+}

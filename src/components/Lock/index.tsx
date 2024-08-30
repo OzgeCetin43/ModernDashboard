@@ -1,9 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import avatar from "../../assets/images/avatar.jpg";
 
 import "./Lock.css";
-import { Link } from "react-router-dom";
 
 export const Lock: React.FC = () => {
   return (
