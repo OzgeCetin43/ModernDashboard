@@ -1,0 +1,72 @@
+.sales-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.sales-container li {
+  width: 33%;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sales-container li:last-child {
+  background-color: #3577f1;
+  color: #fff;
+}
+
+.sales-container li img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+}
+
+.sales-price-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sales-price-container span {
+  padding: 0.25rem 0.5rem;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.high-percentage {
+  background-color: #45cb85;
+}
+
+.low-percentage {
+  background-color: #4b38b3;
+}
+
+.sales-container li progress {
+  width: 100%;
+}
+
+.sales-container li:has(.high-percentage) progress {
+  accent-color: #45cb85;
+}
+
+.sales-container li:has(.low-percentage) progress {
+  accent-color: #4b38b3;
+}
+
+@media (max-width: 920px) {
+  .sales-container {
+    flex-direction: column;
+  }
+
+  .sales-container li {
+    width: 100%;
+  }
+}
