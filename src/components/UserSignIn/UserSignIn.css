@@ -73,6 +73,7 @@
   color: #fff;
   padding: 1rem;
   border-radius: 0.25rem;
+  cursor: pointer;
 }
 
 .user-sign-in-social-media svg:first-child {
