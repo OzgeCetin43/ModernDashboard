@@ -8,6 +8,7 @@ import {
   Help,
   Home,
   LockScreen,
+  Logout,
   Settings,
   SignIn,
   TaskBoard,
@@ -27,6 +28,7 @@ const Routers: React.FC = () => {
       <Route path="/lock-screen" element={<LockScreen />} />
       <Route path="/sign-in" element={<SignIn />} />
       <Route path="/password-reset" element={<ForgotPassword />} />
+      <Route path="/logout" element={<Logout />} />
     </Routes>
   );
 };

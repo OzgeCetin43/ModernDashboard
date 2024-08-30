@@ -8,3 +8,4 @@ export * from "./Balance";
 export * from "./LockScreen";
 export * from "./SignIn";
 export * from "./ForgotPassword";
+export * from "./Logout";
