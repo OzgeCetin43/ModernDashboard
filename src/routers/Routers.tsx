@@ -6,6 +6,7 @@ import {
   Chat,
   Help,
   Home,
+  LockScreen,
   Settings,
   TaskBoard,
   UserProfile,
@@ -21,6 +22,7 @@ const Routers: React.FC = () => {
       <Route path="/help" element={<Help />} />
       <Route path="/user-balance" element={<Balance />} />
       <Route path="/user-settings" element={<Settings />} />
+      <Route path="/lock-screen" element={<LockScreen />} />
     </Routes>
   );
 };

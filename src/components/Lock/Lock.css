@@ -1,0 +1,82 @@
+.lock-container {
+  background-image: url("../../assets/images/lock-screen-bg.jpg");
+  background-size: cover;
+  position: relative;
+  top: 63px;
+  border-radius: 0.25rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: calc(100vh - 63px);
+}
+
+.lock-container-content {
+  background-color: #ffffff75;
+  padding: 4rem;
+  border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 50%;
+}
+
+.lock-sign-in-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lock-sign-in-container a {
+  text-decoration: underline;
+  color: #4b38b3;
+}
+
+.lock-container-content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #f0f0f0;
+}
+
+.lock-container-content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.lock-container-content form input,
+.lock-container-content form button {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+.lock-container-content form input {
+  border: 1px solid #f0f0f0;
+}
+
+.unlock-button {
+  cursor: pointer;
+  background-color: #f06548;
+  color: #fff;
+}
+
+@media (max-width: 920px) {
+  .lock-container {
+    padding: 1rem;
+  }
+
+  .lock-container-content {
+    width: 100%;
+  }
+}
