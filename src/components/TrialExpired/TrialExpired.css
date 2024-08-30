@@ -33,12 +33,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  text-align: center;
   gap: 1rem;
 }
 
 .trial-expaired-content-right img {
-  width: 25%;
+  width: 100%;
 }
 
 .trial-expaired-content-left a {
@@ -48,6 +49,14 @@
   border-radius: 0.25rem;
   color: #fff;
   cursor: pointer;
+}
+
+.trial-expaired-content-left p {
+  line-height: 1.5;
+}
+
+.trial-expaired-content-left ul {
+  list-style: none;
 }
 
 @media (max-width: 920px) {
