@@ -7,3 +7,4 @@ export * from "./Settings";
 export * from "./Balance";
 export * from "./LockScreen";
 export * from "./SignIn";
+export * from "./ForgotPassword";

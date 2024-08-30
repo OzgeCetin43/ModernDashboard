@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import {
   Balance,
   Chat,
+  ForgotPassword,
   Help,
   Home,
   LockScreen,
@@ -25,6 +26,7 @@ const Routers: React.FC = () => {
       <Route path="/user-settings" element={<Settings />} />
       <Route path="/lock-screen" element={<LockScreen />} />
       <Route path="/sign-in" element={<SignIn />} />
+      <Route path="/password-reset" element={<ForgotPassword />} />
     </Routes>
   );
 };

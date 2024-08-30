@@ -19,3 +19,4 @@ export * from "./Experience";
 export * from "./PrivacyPolicy";
 export * from "./Lock";
 export * from "./UserSignIn";
+export * from "./ResetPassword";
