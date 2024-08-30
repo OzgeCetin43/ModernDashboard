@@ -26,3 +26,5 @@
 ![screencapture-localhost-5173-lock-screen-2024-08-30-14_23_05](https://github.com/user-attachments/assets/e6b0321d-9fbc-4816-bbed-4bfd8e46e1a5)
 ## User Sign In Page
 ![screencapture-localhost-5173-sign-in-2024-08-30-15_09_12](https://github.com/user-attachments/assets/70873233-2b02-4d9a-aea5-357b77732f4c)
+## User Password Reset Page
+![screencapture-localhost-5173-password-reset-2024-08-30-15_51_53](https://github.com/user-attachments/assets/7fa3de9f-9a23-4196-b80d-3fc69941cb0b)
