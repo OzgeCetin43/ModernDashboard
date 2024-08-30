@@ -22,3 +22,5 @@
 ![screencapture-localhost-5173-user-settings-2024-08-29-16_10_42](https://github.com/user-attachments/assets/e1b658fd-fa24-4bde-9887-21c92a05613c)
 ## User Settings Privacy Policy Section
 ![screencapture-localhost-5173-user-settings-2024-08-29-16_33_25](https://github.com/user-attachments/assets/ce92ef7c-ad04-4d31-ad1e-2085ad9c9f60)
+## User Lock Screen Page
+![screencapture-localhost-5173-lock-screen-2024-08-30-14_23_05](https://github.com/user-attachments/assets/e6b0321d-9fbc-4816-bbed-4bfd8e46e1a5)
