@@ -23,3 +23,5 @@ export * from "./ResetPassword";
 export * from "./UserLogout";
 export * from "./Sales";
 export * from "./TrialExpired";
+export * from "./OrganicTraffic";
+export * from "./OrganicTrafficMap";

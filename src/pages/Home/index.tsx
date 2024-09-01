@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Sales, TrialExpired } from "../../components";
+import { OrganicTraffic, Sales, TrialExpired } from "../../components";
 
 import "./Home.css";
 
@@ -10,6 +10,7 @@ export const Home: React.FC = () => {
       <h3>Home / Analytics</h3>
       <Sales />
       <TrialExpired />
+      <OrganicTraffic />
     </div>
   );
 };
