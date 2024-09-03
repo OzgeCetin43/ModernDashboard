@@ -25,3 +25,5 @@ export * from "./Sales";
 export * from "./TrialExpired";
 export * from "./OrganicTraffic";
 export * from "./OrganicTrafficMap";
+export * from "./SessionsByCountries";
+export * from "./SessionMap";

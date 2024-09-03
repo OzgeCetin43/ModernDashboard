@@ -1,6 +1,11 @@
 import React from "react";
 
-import { OrganicTraffic, Sales, TrialExpired } from "../../components";
+import {
+  OrganicTraffic,
+  Sales,
+  SessionsByCountries,
+  TrialExpired,
+} from "../../components";
 
 import "./Home.css";
 
@@ -11,6 +16,7 @@ export const Home: React.FC = () => {
       <Sales />
       <TrialExpired />
       <OrganicTraffic />
+      <SessionsByCountries />
     </div>
   );
 };
