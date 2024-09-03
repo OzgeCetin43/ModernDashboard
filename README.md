@@ -31,4 +31,4 @@
 ## User Logout Page
 ![screencapture-localhost-5173-logout-2024-08-30-17_07_05](https://github.com/user-attachments/assets/1f8a500c-9b79-45ba-89b6-e0546faedc8d)
 ## Home Page
-![screencapture-localhost-5173-2024-09-01-15_54_27 (1)](https://github.com/user-attachments/assets/10d1915c-5087-40d8-82a5-b9ec45b7aaa5)
+![screencapture-localhost-5173-2024-09-03-21_14_39](https://github.com/user-attachments/assets/ac2ee80d-cbaa-42f3-aaf3-b43037dcff3e)
