@@ -5,6 +5,7 @@ import {
   OrganicTraffic,
   Sales,
   SessionsByCountries,
+  Traffics,
   TrialExpired,
 } from "../../components";
 
@@ -19,6 +20,7 @@ export const Home: React.FC = () => {
       <OrganicTraffic />
       <SessionsByCountries />
       <Audiences />
+      <Traffics />
     </div>
   );
 };

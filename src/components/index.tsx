@@ -30,3 +30,4 @@ export * from "./SessionMap";
 export * from "./Audiences";
 export * from "./AudienceMetricsChart";
 export * from "./AudienceMetricsByCountryChart";
+export * from "./Traffics";

@@ -1,0 +1,74 @@
+.traffics-container {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.traffics-container-left,
+.traffics-container-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.traffics-container-left table thead tr,
+.traffics-container-right table thead tr {
+  background-color: #212121;
+  color: #fff;
+}
+
+.traffics-container-left table thead tr th,
+.traffics-container-right table thead tr th,
+.traffics-container-left table tbody tr td,
+.traffics-container-right table tbody tr td {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.traffics-container-left table tbody tr:nth-child(even),
+.traffics-container-right table tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.traffics-browser-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.traffics-browser-container img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.traffics-container-left table tbody tr td p span,
+.traffics-container-right table tbody tr td p span {
+  color: #21212150;
+  font-size: 0.75rem;
+}
+
+.change-increase {
+  color: #45cb85;
+  font-weight: bolder;
+}
+
+.change-decrease {
+  color: #f06548;
+  font-weight: bolder;
+}
+
+.traffics-container-right i {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+@media (max-width: 920px) {
+  .traffics-container {
+    flex-direction: column;
+  }
+}
