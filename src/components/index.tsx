@@ -27,3 +27,6 @@ export * from "./OrganicTraffic";
 export * from "./OrganicTrafficMap";
 export * from "./SessionsByCountries";
 export * from "./SessionMap";
+export * from "./Audiences";
+export * from "./AudienceMetricsChart";
+export * from "./AudienceMetricsByCountryChart";
