@@ -2,6 +2,7 @@ import React from "react";
 
 import {
   Audiences,
+  Devices,
   OrganicTraffic,
   Sales,
   SessionsByCountries,
@@ -23,6 +24,7 @@ export const Home: React.FC = () => {
       <Audiences />
       <Traffics />
       <SocialMediaLike />
+      <Devices />
     </div>
   );
 };

@@ -1,0 +1,60 @@
+.users-by-device-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.users-by-device-container-info {
+  background-color: #f0f0f0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.25rem;
+}
+
+.users-by-device-container-info div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.users-by-device-label-circle {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+}
+
+.users-by-device-container-info div:first-child .users-by-device-label-circle {
+  background-color: #45cb85;
+}
+
+.users-by-device-container-info div:nth-child(2) .users-by-device-label-circle {
+  background-color: #ffcc5f;
+}
+
+.users-by-device-container-info div:last-child .users-by-device-label-circle {
+  background-color: #4b38b3;
+}
+
+.users-by-device-container-info div p:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.users-by-device-increase {
+  background-color: #45cb85;
+  padding: 0.25rem 1rem;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.users-by-device-decrease {
+  background-color: #f06548;
+  padding: 0.25rem 1rem;
+  color: #fff;
+  border-radius: 0.25rem;
+}

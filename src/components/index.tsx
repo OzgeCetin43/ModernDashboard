@@ -32,3 +32,6 @@ export * from "./AudienceMetricsChart";
 export * from "./AudienceMetricsByCountryChart";
 export * from "./Traffics";
 export * from "./SocialMediaLike";
+export * from "./Devices";
+export * from "./UsersByDeviceChart";
+export * from "./Referrals";
