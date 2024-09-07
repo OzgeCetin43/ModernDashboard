@@ -31,8 +31,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
           const Icon = item?.icon;
 
           return (
-            <>
-              <li key={item.id} className="menu-links-item">
+            <div key={item.id}>
+              <li className="menu-links-item">
                 {item?.icon ? <Icon /> : null}
                 <p style={{ display: isOpen ? "block" : "none" }}>
                   {item.label}
@@ -72,7 +72,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
                   ))}
                 </ul>
               ) : null}
-            </>
+            </div>
           );
         })}
       </ul>

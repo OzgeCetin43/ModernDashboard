@@ -1,0 +1,91 @@
+.social-media-like-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.social-media-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.social-media-items li {
+  width: 33%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.social-media-shape {
+  position: absolute;
+  width: 30%;
+  height: 125px;
+  top: 0;
+  right: 0;
+}
+
+.social-media-like-container-inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-media-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.social-media-total-like-container div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-media-total-like-container div span {
+  font-weight: bolder;
+}
+
+.social-media-total-like-container div small {
+  background-color: #45cb85;
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.social-media-info-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-media-info-container div {
+  width: 20%;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social-media-info-container div p {
+  font-weight: bolder;
+}
+
+@media (max-width: 920px) {
+  .social-media-items {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .social-media-items li {
+    width: 100%;
+  }
+}
