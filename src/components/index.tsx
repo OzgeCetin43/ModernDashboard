@@ -35,3 +35,4 @@ export * from "./SocialMediaLike";
 export * from "./Devices";
 export * from "./UsersByDeviceChart";
 export * from "./Referrals";
+export * from "./SalesOverview";

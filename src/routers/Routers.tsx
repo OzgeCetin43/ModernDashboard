@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import {
   Balance,
   Chat,
+  CRM,
   ForgotPassword,
   Help,
   Home,
@@ -29,6 +30,7 @@ const Routers: React.FC = () => {
       <Route path="/sign-in" element={<SignIn />} />
       <Route path="/password-reset" element={<ForgotPassword />} />
       <Route path="/logout" element={<Logout />} />
+      <Route path="/crm-dashboard" element={<CRM />} />
     </Routes>
   );
 };
