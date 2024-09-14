@@ -32,3 +32,6 @@
 ![screencapture-localhost-5173-logout-2024-08-30-17_07_05](https://github.com/user-attachments/assets/1f8a500c-9b79-45ba-89b6-e0546faedc8d)
 ## Home Page
 ![screencapture-localhost-5173-2024-09-07-17_03_43](https://github.com/user-attachments/assets/56b872a6-8191-4ea6-984c-19ee4eda3f9e)
+## CRM Page
+![screencapture-localhost-5173-crm-dashboard-2024-09-08-17_10_15](https://github.com/user-attachments/assets/1194674f-670a-4175-9651-5910ae13ae03)
+
