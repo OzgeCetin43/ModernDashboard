@@ -39,3 +39,4 @@ export * from "./SalesOverview";
 export * from "./SalesAndDeal";
 export * from "./SalesChart";
 export * from "./DealTypeChart";
+export * from "./BalanceOverview";

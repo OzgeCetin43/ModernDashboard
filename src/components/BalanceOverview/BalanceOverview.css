@@ -1,0 +1,34 @@
+.balance-overview-container {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.balance-overview-info-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.balance-overview-info-list li {
+  width: 25%;
+  border: 1px solid #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f0f0f050;
+}
+
+@media (max-width: 920px) {
+  .balance-overview-info-list {
+    flex-direction: column;
+  }
+
+  .balance-overview-info-list li {
+    width: 100%;
+  }
+}
