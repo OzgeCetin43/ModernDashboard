@@ -36,3 +36,6 @@ export * from "./Devices";
 export * from "./UsersByDeviceChart";
 export * from "./Referrals";
 export * from "./SalesOverview";
+export * from "./SalesAndDeal";
+export * from "./SalesChart";
+export * from "./DealTypeChart";

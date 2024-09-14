@@ -1,0 +1,20 @@
+.sales-and-deal-container {
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sales-and-deal-container-left,
+.sales-and-deal-container-right {
+  flex: 1;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 920px) {
+  .sales-and-deal-container {
+    flex-direction: column;
+  }
+}
